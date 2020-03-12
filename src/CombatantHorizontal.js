@@ -47,7 +47,18 @@ export default class CombatantHorizontal extends Component {
           }
         }
       }
-    } else {
+    } else if (config.color === 'byJob') {
+      for (const role in jobRoles) {
+        console.log(role)
+        if (jobRoles[role].indexOf(data.Job.toLowerCase()) >= 0)
+          jobStyleClass = ` job-${role}`
+        if (data.Job === '') {
+          for (const job of jobRoles[role]) {
+            if (name.indexOf(job) >= 0) jobStyleClass = ` job-${role}`
+          }
+        }
+      }
+    } else{
       jobStyleClass = ''
     }
 
