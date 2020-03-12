@@ -687,6 +687,76 @@
 .row.job-arc .damage-percent-bg {
   background: rgba(145, 186, 94, 0.3);
 }
+/***************************************/
+.row.job-smn .damage-percent-fg {
+  background: rgba(70, 180, 145, 0.3);
+}
+.row.job-acn .damage-percent-fg {
+  background: rgba(70, 180, 145, 0.3);
+}
+.row.job-carbuncle .damage-percent-fg {
+  background: rgba(70, 180, 145, 0.3);
+}
+.row.job-garuda .damage-percent-fg {
+  background: rgba(70, 180, 145, 0.3);
+}
+.row.job-ifrit .damage-percent-fg {
+  background: rgba(70, 180, 145, 0.3);
+}
+.row.job-blm .damage-percent-fg {
+  background: rgba(190, 146, 239, 0.3);
+}
+.row.job-thm .damage-percent-fg {
+  background: rgba(190, 146, 239, 0.3);
+}
+.row.job-sam .damage-percent-fg {
+  background: rgba(253, 134, 29, 0.3);
+}
+.row.job-mnk .damage-percent-fg {
+  background: rgba(239, 181, 25, 0.3);
+}
+.row.job-pug .damage-percent-fg {
+  background: rgba(239, 181, 25, 0.3);
+}
+.row.job-pgl .damage-percent-fg {
+  background: rgba(239, 181, 25, 0.3);
+}
+.row.job-nin .damage-percent-fg {
+  background: rgba(200, 50, 125, 0.3);
+}
+.row.job-rog .damage-percent-fg {
+  background: rgba(200, 50, 125, 0.3);
+}
+.row.job-drg .damage-percent-fg {
+  background: rgba(90, 125, 230, 0.3);
+}
+.row.job-lnc .damage-percent-fg {
+  background: rgba(90, 125, 230, 0.3);
+}
+.row.job-rdm .damage-percent-fg {
+  background: rgba(255, 148, 148, 0.3);
+}
+.row.job-mch .damage-percent-fg {
+  background: rgba(135, 250, 239, 0.3);
+}
+.row.job-rook .damage-percent-fg {
+  background: rgba(135, 250, 239, 0.3);
+}
+.row.job-bishop .damage-percent-fg {
+  background: rgba(135, 250, 239, 0.3);
+}
+.row.job-dnc .damage-percent-fg {
+  background: rgba(251, 201, 200, 0.3);
+}
+.row.job-brd .damage-percent-fg {
+  background: rgba(145, 186, 94, 0.3);
+}
+.row.job-arc .damage-percent-fg {
+  background: rgba(145, 186, 94, 0.3);
+}
+.row.job-dps .damage-percent-fg {
+  background: rgba(244, 67, 54, 0.7);
+}
 /*************************************
  *****           TANK            *****
  *************************************/
@@ -713,54 +783,81 @@
 }
 .row.job-titan .damage-percent-bg {
   background: rgba(70, 180, 145, 0.3);
-/*************************************
- *****          HEALER           *****
- *************************************/
 }
-.row.job-healer .damage-percent-bg {
-  background: rgba(139, 195, 74, 0.3);
-}
-.row.self .damage-percent-bg {
-  background: rgba(255, 255, 255, 0.5);
-}
-/*************************************
- *****          HEALER           *****
- *************************************/
-.row.job-dps .damage-percent-fg {
-  background: rgba(244, 67, 54, 0.7);
-}
-/*************************************
- *****          HEALER           *****
- *************************************/
+/**********************************/
 .row.job-tank .damage-percent-fg {
   background: rgba(33, 150, 243, 0.7);
 }
-.row.job-pld .damage-percent-bg {
+.row.job-pld .damage-percent-fg {
   background: rgba(193, 235, 255, 0.7);
 }
-.row.job-gla .damage-percent-bg {
+.row.job-gla .damage-percent-fg {
   background: rgba(193, 235, 255, 0.7);
 }
-.row.job-war .damage-percent-bg {
+.row.job-war .damage-percent-fg {
   background: rgba(232, 63, 58, 0.7);
 }
-.row.job-mrd .damage-percent-bg {
+.row.job-mrd .damage-percent-fg {
   background: rgba(232, 63, 58, 0.7);
 }
-.row.job-drk .damage-percent-bg {
+.row.job-drk .damage-percent-fg {
   background: rgba(209, 38, 204, 0.7);
 }
-.row.job-gnb .damage-percent-bg {
+.row.job-gnb .damage-percent-fg {
   background: rgba(146, 134, 73, 0.7);
 }
-.row.job-titan .damage-percent-bg {
+.row.job-titan .damage-percent-fg {
   background: rgba(70, 180, 145, 0.7);
 }
 /*************************************
  *****          HEALER           *****
  *************************************/
+
+.row.job-healer .damage-percent-bg {
+  background: rgba(139, 195, 74, 0.3);
+}
+.row.job-ast .damage-percent-bg {
+  background: rgba(255, 255, 99, 0.3);
+}
+.row.job-whm .damage-percent-bg {
+  background: rgba(255, 255, 245, 0.3);
+}
+.row.job-cnj .damage-percent-bg {
+  background: rgba(255, 255, 245, 0.3);
+}
+.row.job-sch .damage-percent-bg {
+  background: rgba(159, 112, 255, 0.3);
+}
+.row.job-eos .damage-percent-bg {
+  background: rgba(159, 112, 255, 0.3);
+}
+.row.job-selene .damage-percent-bg {
+  background: rgba(159, 112, 255, 0.3);
+}
+.row.self .damage-percent-bg {
+  background: rgba(255, 255, 255, 0.5);
+}
+/**********************************/
 .row.job-healer .damage-percent-fg {
   background: rgba(139, 195, 74, 0.7);
+}
+.row.job-ast .damage-percent-fg {
+  background: rgba(255, 255, 99, 0.3);
+}
+.row.job-whm .damage-percent-fg {
+  background: rgba(255, 255, 245, 0.3);
+}
+.row.job-cnj .damage-percent-fg {
+  background: rgba(255, 255, 245, 0.3);
+}
+.row.job-sch .damage-percent-fg {
+  background: rgba(159, 112, 255, 0.3);
+}
+.row.job-eos .damage-percent-fg {
+  background: rgba(159, 112, 255, 0.3);
+}
+.row.job-selene .damage-percent-fg {
+  background: rgba(159, 112, 255, 0.3);
 }
 .row.self .damage-percent-fg {
   background: rgba(255, 255, 255, 1);
