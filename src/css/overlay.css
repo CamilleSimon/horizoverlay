@@ -33,6 +33,19 @@
 .row.job-tank .data-items:before {
   background: rgba(32, 149, 243, 0.5);
 }
+
+.row.job-pld .data-items:before {
+  background: rgba(193, 235, 255, 0.5);
+}
+
+.row.job-war .data-items:before {
+  background: rgba(232, 63, 58, 0.5);
+}
+
+.row.job-drk .data-items:before {
+  background: rgba(209, 38, 204, 0.5);
+}
+
 .row.job-tank .data-items.highlight:before {
   background-image: linear-gradient(
     to left,

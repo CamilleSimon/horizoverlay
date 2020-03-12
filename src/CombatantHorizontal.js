@@ -31,7 +31,7 @@ export default class CombatantHorizontal extends Component {
     const order = this.props.rank
     const jobName = data.Job || 'WHO?'
     const name = data.name.toLowerCase()
-    let jobStyleClass, jobIcon, damageWidth
+    let jobStyleClass, jobIcon, damageWidth, job
 
     // don't need to render this component if this is a limit break
     if (!data.Job && name === 'limit break') return null
@@ -49,9 +49,10 @@ export default class CombatantHorizontal extends Component {
       }
     } else if (config.color === 'byJob') {
       for (const role in jobRoles) {
-        console.log(role)
-        if (jobRoles[role].indexOf(data.Job.toLowerCase()) >= 0)
-          jobStyleClass = ` job-${role}`
+        if (jobRoles[role].indexOf(data.Job.toLowerCase()) >= 0){
+          job = data.Job.toLowerCase()
+          jobStyleClass = ` job-${job}`
+        }
         if (data.Job === '') {
           for (const job of jobRoles[role]) {
             if (name.indexOf(job) >= 0) jobStyleClass = ` job-${role}`
