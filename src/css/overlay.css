@@ -38,12 +38,28 @@
   background: rgba(193, 235, 255, 0.5);
 }
 
+.row.job-gla .data-items:before {
+  background: rgba(193, 235, 255, 0.5);
+}
+
 .row.job-war .data-items:before {
+  background: rgba(232, 63, 58, 0.5);
+}
+
+.row.job-mrd .data-items:before {
   background: rgba(232, 63, 58, 0.5);
 }
 
 .row.job-drk .data-items:before {
   background: rgba(209, 38, 204, 0.5);
+}
+
+.row.job-gnb .data-items:before {
+  background: rgba(146, 134, 73, 0.5);
+}
+
+.row.job-titan .data-items:before {
+  background: rgba(70, 180, 145, 0.5);
 }
 
 .row.job-tank .data-items.highlight:before {
@@ -56,6 +72,84 @@
   );
   background-repeat: no-repeat;
 }
+
+.row.job-pld .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(193, 235, 255, 0.5) 0%,
+    rgba(193, 235, 255, 0.5) 51%,
+    rgba(193, 235, 255, 0.1) 51%,
+    rgba(193, 235, 255, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.row.job-gla .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(193, 235, 255, 0.5) 0%,
+    rgba(193, 235, 255, 0.5) 51%,
+    rgba(193, 235, 255, 0.1) 51%,
+    rgba(193, 235, 255, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.row.job-war .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(232, 63, 58, 0.5) 0%,
+    rgba(232, 63, 58, 0.5) 51%,
+    rgba(232, 63, 58, 0.1) 51%,
+    rgba(232, 63, 58, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.row.job-mrd .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(232, 63, 58, 0.5) 0%,
+    rgba(232, 63, 58, 0.5) 51%,
+    rgba(232, 63, 58, 0.1) 51%,
+    rgba(232, 63, 58, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.row.job-drk .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(209, 38, 204, 0.5) 0%,
+    rgba(209, 38, 204, 0.5) 51%,
+    rgba(209, 38, 204, 0.1) 51%,
+    rgba(209, 38, 204, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.row.job-gnb .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(146, 134, 73, 0.5) 0%,
+    rgba(146, 134, 73, 0.5) 51%,
+    rgba(146, 134, 73, 0.1) 51%,
+    rgba(146, 134, 73, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.row.job-titan .data-items.highlight:before {
+  background-image: linear-gradient(
+    to left,
+    rgba(70, 180, 145, 0.5) 0%,
+    rgba(70, 180, 145, 0.5) 51%,
+    rgba(70, 180, 145, 0.1) 51%,
+    rgba(70, 180, 145, 0.1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
 .row.job-healer .data-items:before {
   background: rgba(139, 195, 74, 0.5);
 }
@@ -90,6 +184,27 @@
 .row.job-tank .damage-percent-bg {
   background: rgba(33, 150, 243, 0.3);
 }
+.row.job-pld .damage-percent-bg {
+  background: rgba(193, 235, 255, 0.3);
+}
+.row.job-gla .damage-percent-bg {
+  background: rgba(193, 235, 255, 0.3);
+}
+.row.job-war .damage-percent-bg {
+  background: rgba(232, 63, 58, 0.3);
+}
+.row.job-mrd .damage-percent-bg {
+  background: rgba(232, 63, 58, 0.3);
+}
+.row.job-drk .damage-percent-bg {
+  background: rgba(209, 38, 204, 0.3);
+}
+.row.job-gnb .damage-percent-bg {
+  background: rgba(146, 134, 73, 0.3);
+}
+.row.job-titan .damage-percent-bg {
+  background: rgba(70, 180, 145, 0.3);
+}
 .row.job-healer .damage-percent-bg {
   background: rgba(139, 195, 74, 0.3);
 }
@@ -101,6 +216,27 @@
 }
 .row.job-tank .damage-percent-fg {
   background: rgba(33, 150, 243, 0.7);
+}
+.row.job-pld .damage-percent-bg {
+  background: rgba(193, 235, 255, 0.7);
+}
+.row.job-gla .damage-percent-bg {
+  background: rgba(193, 235, 255, 0.7);
+}
+.row.job-war .damage-percent-bg {
+  background: rgba(232, 63, 58, 0.7);
+}
+.row.job-mrd .damage-percent-bg {
+  background: rgba(232, 63, 58, 0.7);
+}
+.row.job-drk .damage-percent-bg {
+  background: rgba(209, 38, 204, 0.7);
+}
+.row.job-gnb .damage-percent-bg {
+  background: rgba(146, 134, 73, 0.7);
+}
+.row.job-titan .damage-percent-bg {
+  background: rgba(70, 180, 145, 0.7);
 }
 .row.job-healer .damage-percent-fg {
   background: rgba(139, 195, 74, 0.7);
