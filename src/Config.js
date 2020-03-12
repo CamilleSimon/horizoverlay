@@ -111,6 +111,19 @@ class ConfigRaw extends Component {
                 {/* Black & White */}
                 {loc.themeOption2}
               </label>
+              <br />
+              <input
+                type="radio"
+                name="color"
+                id="colorByJob"
+                value="byJob"
+                checked={config.color === 'byJob'}
+                onChange={this.handleConfig}
+              />
+              <label htmlFor="colorByJob">
+                {/* Color By Job */}
+                {loc.themeOption3}
+              </label>
             </div>
           </fieldset>
           <fieldset className="fieldsToShow">
