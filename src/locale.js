@@ -11,6 +11,7 @@ const locale = {
       themeTitle: 'Color Theme',
       themeOption1: 'Color By Role',
       themeOption2: 'Black & White',
+      themeOption3: 'Color By Job',
       toggleTitle: 'Check to Show',
       toggleOption1: 'Rank #',
       toggleOption2: 'Job Icon',
