@@ -7,10 +7,7 @@
     "Please check this url for the whole list(https://github.com/bsides/horizoverlay/graphs/contributors)"
   ],
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bsides/horizoverlay.git"
-  },
+  "repository": "https://github.com/bsides/horizoverlay.git",
   "bugs": {
     "url": "https://github.com/bsides/horizoverlay/issues"
   },
@@ -49,5 +46,7 @@
       "not dead",
       "not op_mini all"
     ]
-  }
+  },
+  "main": "index.js",
+  "license": "MIT"
 }
